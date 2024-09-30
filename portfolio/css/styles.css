@@ -1,0 +1,90 @@
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .navbar a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .navbar a:hover {
+    background: #575757;
+  }
+
+
+  header h1 {
+    font-size: 3em;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  .section {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  .cta-button:hover {
+    background: #0056b3;
+  }
+
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+
+  /*icones*/
+  i {
+    font-size: 50px;
+  }
+  .bi-filetype-html {
+    color: orange;
+  }
+  .bi-filetype-css {
+    color: #007bff;
+  }
+  .bi-filetype-js {
+    color: yellow;
+  }
+  .bi-filetype-py {
+    color: #0056b3;
+  }
+  .bi-filetype-sql {
+    color: aquamarine;
+  }
+  .bi-whatsapp {
+    cursor: pointer;
+    color: green;
+  }
+  .bi-linkedin {
+    cursor: pointer;
+    color: blue;
+  }
